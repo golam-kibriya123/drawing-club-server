@@ -1,0 +1,72 @@
+[
+    {
+        "instructorId": "1",
+        "name": "John Smith",
+        "email": "john.smith@example.com",
+        "photoUrl": "https://example.com/images/instructors/john-smith.jpg",
+        "className": "Introduction to Programming"
+    },
+    {
+        "instructorId": "2",
+        "name": "Emily Johnson",
+        "email": "emily.johnson@example.com",
+        "photoUrl": "https://example.com/images/instructors/emily-johnson.jpg",
+        "className": "Web Development Fundamentals"
+    },
+    {
+        "instructorId": "3",
+        "name": "Michael Davis",
+        "email": "michael.davis@example.com",
+        "photoUrl": "https://example.com/images/instructors/michael-davis.jpg",
+        "className": "Python for Data Science"
+    },
+    {
+        "instructorId": "4",
+        "name": "Sarah Thompson",
+        "email": "sarah.thompson@example.com",
+        "photoUrl": "https://example.com/images/instructors/sarah-thompson.jpg",
+        "className": "Digital Marketing 101"
+    },
+    {
+        "instructorId": "5",
+        "name": "David Lee",
+        "email": "david.lee@example.com",
+        "photoUrl": "https://example.com/images/instructors/david-lee.jpg",
+        "className": "Introduction to Artificial Intelligence"
+    },
+    {
+        "instructorId": "6",
+        "name": "Amy Wilson",
+        "email": "amy.wilson@example.com",
+        "photoUrl": "https://example.com/images/instructors/amy-wilson.jpg",
+        "className": "Graphic Design Essentials"
+    },
+    {
+        "instructorId": "7",
+        "name": "Matthew Thompson",
+        "email": "matthew.thompson@example.com",
+        "photoUrl": "https://example.com/images/instructors/matthew-thompson.jpg",
+        "className": "Photography Masterclass"
+    },
+    {
+        "instructorId": "8",
+        "name": "Emma Rodriguez",
+        "email": "emma.rodriguez@example.com",
+        "photoUrl": "https://example.com/images/instructors/emma-rodriguez.jpg",
+        "className": "Business Finance Fundamentals"
+    },
+    {
+        "instructorId": "9",
+        "name": "Daniel Harris",
+        "email": "daniel.harris@example.com",
+        "photoUrl": "https://example.com/images/instructors/daniel-harris.jpg",
+        "className": "UX Design Principles"
+    },
+    {
+        "instructorId": "10",
+        "name": "Olivia Martinez",
+        "email": "olivia.martinez@example.com",
+        "photoUrl": "https://example.com/images/instructors/olivia-martinez.jpg",
+        "className": "Introduction to Machine Learning"
+    }
+]

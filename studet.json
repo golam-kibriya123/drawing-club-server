@@ -1,0 +1,74 @@
+[
+    {
+        "studentId": "1",
+        "name": "Alice Johnson",
+        "email": "alice.johnson@example.com",
+        "photoUrl": "https://example.com/images/students/alice-johnson.jpg",
+        "gender": "Female",
+        "phoneNumber": "+1 123-456-7890",
+        "address": "123 Main Street, Anytown, USA"
+    },
+    {
+        "studentId": "2",
+        "name": "Bob Smith",
+        "email": "bob.smith@example.com",
+        "photoUrl": "https://example.com/images/students/bob-smith.jpg",
+        "gender": "Male",
+        "phoneNumber": "+1 234-567-8901",
+        "address": "456 Elm Avenue, Sometown, USA"
+    },
+    {
+        "studentId": "3",
+        "name": "Emma Davis",
+        "email": "emma.davis@example.com",
+        "photoUrl": "https://example.com/images/students/emma-davis.jpg",
+        "gender": "Female",
+        "phoneNumber": "+1 345-678-9012",
+        "address": "789 Oak Street, Anytown, USA"
+    },
+    {
+        "studentId": "4",
+        "name": "Michael Johnson",
+        "email": "michael.johnson@example.com",
+        "photoUrl": "https://example.com/images/students/michael-johnson.jpg",
+        "gender": "Male",
+        "phoneNumber": "+1 456-789-0123",
+        "address": "321 Pine Drive, Sometown, USA"
+    },
+    {
+        "studentId": "5",
+        "name": "Olivia Wilson",
+        "email": "olivia.wilson@example.com",
+        "photoUrl": "https://example.com/images/students/olivia-wilson.jpg",
+        "gender": "Female",
+        "phoneNumber": "+1 567-890-1234",
+        "address": "654 Maple Lane, Anytown, USA"
+    },
+    {
+        "studentId": "6",
+        "name": "Daniel Martinez",
+        "email": "daniel.martinez@example.com",
+        "photoUrl": "https://example.com/images/students/daniel-martinez.jpg",
+        "gender": "Male",
+        "phoneNumber": "+1 678-901-2345",
+        "address": "987 Birch Road, Sometown, USA"
+    },
+    {
+        "studentId": "7",
+        "name": "Sophia Brown",
+        "email": "sophia.brown@example.com",
+        "photoUrl": "https://example.com/images/students/sophia-brown.jpg",
+        "gender": "Female",
+        "phoneNumber": "+1 789-012-3456",
+        "address": "789 Elm Avenue, Anytown, USA"
+    },
+    {
+        "studentId": "8",
+        "name": "James Taylor",
+        "email": "james.taylor@example.com",
+        "photoUrl": "https://example.com/images/students/james-taylor.jpg",
+        "gender": "Male",
+        "phoneNumber": "+1 890-123-4567",
+        "address": "234 Oak Street, Sometown, USA"
+    }
+]

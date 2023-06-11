@@ -1,0 +1,210 @@
+[
+    {
+        "courseId": "101",
+        "courseName": "Web Development Fundamentals",
+        "imageLink": "https://example.com/images/web-dev-fundamentals.jpg",
+        "instructorName": "Emily Johnson",
+        "availableSeats": 100,
+        "enrolled":90,
+        "price": 79.99,
+        "courseDetails": {
+            "description": "Learn the basics of web development and build your first website.",
+            "duration": "4 weeks",
+            "level": "Beginner",
+            "lessons": [
+                {
+                    "lessonId": "1",
+                    "title": "Introduction to HTML",
+                    "duration": "2 hours",
+                    "videoUrl": "https://example.com/lessons/1"
+                },
+                {
+                    "lessonId": "2",
+                    "title": "CSS Styling",
+                    "duration": "1 hour 30 minutes",
+                    "videoUrl": "https://example.com/lessons/2"
+                },
+                {
+                    "lessonId": "3",
+                    "title": "JavaScript Basics",
+                    "duration": "2 hours",
+                    "videoUrl": "https://example.com/lessons/3"
+                },
+                {
+                    "lessonId": "4",
+                    "title": "Responsive Design",
+                    "duration": "1 hour 30 minutes",
+                    "videoUrl": "https://example.com/lessons/4"
+                }
+            ],
+            "reviews": [
+                {
+                    "username": "user1",
+                    "rating": 4.2,
+                    "comment": "Clear explanations and practical exercises."
+                },
+                {
+                    "username": "user2",
+                    "rating": 4.8,
+                    "comment": "Great course to get started with web development."
+                }
+            ]
+        }
+    },
+    {
+        "courseId": "102",
+        "courseName": "Python for Data Science",
+        "imageLink": "https://example.com/images/python-data-science.jpg",
+        "instructorName": "Michael Davis",
+        "availableSeats": 75,
+        "enrolled":50,
+        "price": 99.99,
+        "courseDetails": {
+            "description": "Learn Python programming and data science techniques.",
+            "duration": "8 weeks",
+            "level": "Intermediate",
+            "lessons": [
+                {
+                    "lessonId": "1",
+                    "title": "Python Basics",
+                    "duration": "2 hours",
+                    "videoUrl": "https://example.com/lessons/1"
+                },
+                {
+                    "lessonId": "2",
+                    "title": "Data Manipulation with Pandas",
+                    "duration": "3 hours",
+                    "videoUrl": "https://example.com/lessons/2"
+                },
+                {
+                    "lessonId": "3",
+                    "title": "Data Visualization with Matplotlib",
+                    "duration": "2 hours 30 minutes",
+                    "videoUrl": "https://example.com/lessons/3"
+                },
+                {
+                    "lessonId": "4",
+                    "title": "Machine Learning with Scikit-Learn",
+                    "duration": "4 hours",
+                    "videoUrl": "https://example.com/lessons/4"
+                }
+            ],
+            "reviews": [
+                {
+                    "username": "user1",
+                    "rating": 4.5,
+                    "comment": "The instructor explains complex topics effectively."
+                },
+                {
+                    "username": "user2",
+                    "rating": 4.7,
+                    "comment": "Practical examples make it easier to understand."
+                }
+            ]
+        }
+    },
+    {
+        "courseId": "103",
+        "courseName": "Digital Marketing 101",
+        "imageLink": "https://example.com/images/digital-marketing.jpg",
+        "instructorName": "Sarah Thompson",
+        "availableSeats": 50,
+        "enrolled":40,
+        "price": 59.99,
+        "courseDetails": {
+            "description": "Learn the fundamentals of digital marketing and grow your online presence.",
+            "duration": "6 weeks",
+            "level": "Beginner",
+            "lessons": [
+                {
+                    "lessonId": "1",
+                    "title": "Introduction to Digital Marketing",
+                    "duration": "2 hours",
+                    "videoUrl": "https://example.com/lessons/1"
+                },
+                {
+                    "lessonId": "2",
+                    "title": "Search Engine Optimization (SEO)",
+                    "duration": "3 hours",
+                    "videoUrl": "https://example.com/lessons/2"
+                },
+                {
+                    "lessonId": "3",
+                    "title": "Social Media Marketing",
+                    "duration": "2 hours 30 minutes",
+                    "videoUrl": "https://example.com/lessons/3"
+                },
+                {
+                    "lessonId": "4",
+                    "title": "Email Marketing",
+                    "duration": "1 hour 30 minutes",
+                    "videoUrl": "https://example.com/lessons/4"
+                }
+            ],
+            "reviews": [
+                {
+                    "username": "user1",
+                    "rating": 4.4,
+                    "comment": "Practical tips and strategies for effective digital marketing."
+                },
+                {
+                    "username": "user2",
+                    "rating": 4.6,
+                    "comment": "Great course to start building your online brand."
+                }
+            ]
+        }
+    },
+    {
+        "courseId": "104",
+        "courseName": "Introduction to Artificial Intelligence",
+        "imageLink": "https://example.com/images/ai-intro.jpg",
+        "instructorName": "David Lee",
+        "availableSeats": 80,
+        "enrolled":70,
+        "price": 89.99,
+        "courseDetails": {
+            "description": "Explore the exciting field of artificial intelligence and its applications.",
+            "duration": "10 weeks",
+            "level": "Intermediate",
+            "lessons": [
+                {
+                    "lessonId": "1",
+                    "title": "Introduction to AI",
+                    "duration": "2 hours",
+                    "videoUrl": "https://example.com/lessons/1"
+                },
+                {
+                    "lessonId": "2",
+                    "title": "Machine Learning Algorithms",
+                    "duration": "4 hours",
+                    "videoUrl": "https://example.com/lessons/2"
+                },
+                {
+                    "lessonId": "3",
+                    "title": "Deep Learning with Neural Networks",
+                    "duration": "3 hours",
+                    "videoUrl": "https://example.com/lessons/3"
+                },
+                {
+                    "lessonId": "4",
+                    "title": "AI Ethics and Responsible AI",
+                    "duration": "1 hour 30 minutes",
+                    "videoUrl": "https://example.com/lessons/4"
+                }
+            ],
+            "reviews": [
+                {
+                    "username": "user1",
+                    "rating": 4.7,
+                    "comment": "The course provides a solid foundation in AI concepts."
+                },
+                {
+                    "username": "user2",
+                    "rating": 4.6,
+                    "comment": "Great course to start building your online brand."
+                }
+            ]
+        }
+    }
+]
