@@ -34,7 +34,8 @@ async function run() {
         // Connect the client to the server	(optional starting in v4.7)
         await client.connect();
         const classesCollection = client.db('drawingDB').collection('classes');
-
+        const instructorsCollection = client.db('drawingDB').collection('instructors');
+        const studentsCollection = client.db('drawingDB').collection('students');
 
         app.get('/classes', async (req, res) => {
             const query = {};
@@ -49,7 +50,15 @@ async function run() {
             res.send(result)
         });
 
-       
+        app.get('/students', async (req, res) => {
+            const query = {};
+            const option = {};
+            const result = await studentsCollection.find({}).toArray();
+            res.send(result)
+        });
+
+
+
 
 
 
