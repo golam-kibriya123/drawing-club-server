@@ -4,69 +4,79 @@
         "name": "John Smith",
         "email": "john.smith@example.com",
         "photoUrl": "https://example.com/images/instructors/john-smith.jpg",
-        "className": "Introduction to Programming"
+        "className": "Introduction to Programming",
+        "enrolled_student":"20"
     },
     {
         "instructorId": "2",
         "name": "Emily Johnson",
         "email": "emily.johnson@example.com",
         "photoUrl": "https://example.com/images/instructors/emily-johnson.jpg",
-        "className": "Web Development Fundamentals"
+        "className": "Web Development Fundamentals",
+        "enrolled_student":"10"
     },
     {
         "instructorId": "3",
         "name": "Michael Davis",
         "email": "michael.davis@example.com",
         "photoUrl": "https://example.com/images/instructors/michael-davis.jpg",
-        "className": "Python for Data Science"
+        "className": "Python for Data Science",
+        "enrolled_student":"5"
     },
     {
         "instructorId": "4",
         "name": "Sarah Thompson",
         "email": "sarah.thompson@example.com",
         "photoUrl": "https://example.com/images/instructors/sarah-thompson.jpg",
-        "className": "Digital Marketing 101"
+        "className": "Digital Marketing 101",
+        "enrolled_student":"25"
     },
     {
         "instructorId": "5",
         "name": "David Lee",
         "email": "david.lee@example.com",
         "photoUrl": "https://example.com/images/instructors/david-lee.jpg",
-        "className": "Introduction to Artificial Intelligence"
+        "className": "Introduction to Artificial Intelligence",
+        "enrolled_student":"2"
     },
     {
         "instructorId": "6",
         "name": "Amy Wilson",
         "email": "amy.wilson@example.com",
         "photoUrl": "https://example.com/images/instructors/amy-wilson.jpg",
-        "className": "Graphic Design Essentials"
+        "className": "Graphic Design Essentials",
+        "enrolled_student":"23"
     },
     {
         "instructorId": "7",
         "name": "Matthew Thompson",
         "email": "matthew.thompson@example.com",
         "photoUrl": "https://example.com/images/instructors/matthew-thompson.jpg",
-        "className": "Photography Masterclass"
+        "className": "Photography Masterclass",
+        "enrolled_student":"40"
     },
     {
         "instructorId": "8",
         "name": "Emma Rodriguez",
         "email": "emma.rodriguez@example.com",
         "photoUrl": "https://example.com/images/instructors/emma-rodriguez.jpg",
-        "className": "Business Finance Fundamentals"
+        "className": "Business Finance Fundamentals",
+        "enrolled_student":"20"
     },
     {
         "instructorId": "9",
         "name": "Daniel Harris",
         "email": "daniel.harris@example.com",
         "photoUrl": "https://example.com/images/instructors/daniel-harris.jpg",
-        "className": "UX Design Principles"
+        "className": "UX Design Principles",
+        "enrolled_student":"2"
     },
     {
         "instructorId": "10",
         "name": "Olivia Martinez",
         "email": "olivia.martinez@example.com",
         "photoUrl": "https://example.com/images/instructors/olivia-martinez.jpg",
-        "className": "Introduction to Machine Learning"
+        "className": "Introduction to Machine Learning",
+        "enrolled_student":"10"
     }
 ]

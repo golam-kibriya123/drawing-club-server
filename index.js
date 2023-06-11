@@ -43,13 +43,19 @@ async function run() {
             const result = await classesCollection.find({}).toArray();
             res.send(result)
         });
+        app.get('/popularclass', async (req, res) => {
+            const query = {}
+            const option = { sort: { "enrolled": -1 }, };
+            const result = await classesCollection.find(query, option).limit(6).toArray();
+            res.send(result)
+        });
         app.get('/instructors', async (req, res) => {
             const query = {};
             const option = {};
             const result = await instructorsCollection.find({}).toArray();
             res.send(result)
         });
-
+      
         app.get('/students', async (req, res) => {
             const query = {};
             const option = {};
