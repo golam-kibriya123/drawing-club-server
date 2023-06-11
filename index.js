@@ -33,10 +33,30 @@ async function run() {
     try {
         // Connect the client to the server	(optional starting in v4.7)
         await client.connect();
+        const classesCollection = client.db('drawingDB').collection('classes');
+
 
         app.get('/classes', async (req, res) => {
-            res.send('the server is running')
-        })
+            const query = {};
+            const option = {};
+            const result = await classesCollection.find({}).toArray();
+            res.send(result)
+        });
+        app.get('/instructors', async (req, res) => {
+            const query = {};
+            const option = {};
+            const result = await instructorsCollection.find({}).toArray();
+            res.send(result)
+        });
+
+       
+
+
+
+
+
+
+
         // Send a ping to confirm a successful connection
         await client.db("admin").command({ ping: 1 });
         console.log("Pinged your deployment. You successfully connected to MongoDB!");
