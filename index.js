@@ -55,7 +55,17 @@ async function run() {
             const result = await instructorsCollection.find({}).toArray();
             res.send(result)
         });
-      
+        app.get('/popularinstructors', async (req, res) => {
+            
+            const option = {
+                sort: { "enrolled_student": 1 }
+            }
+                ;
+            const query = {};
+            const result = await instructorsCollection.find(query, option).limit(6).toArray();
+            res.send(result)
+
+        })
         app.get('/students', async (req, res) => {
             const query = {};
             const option = {};
