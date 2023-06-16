@@ -5,7 +5,7 @@
         "imageLink": "https://example.com/images/web-dev-fundamentals.jpg",
         "instructorName": "Emily Johnson",
         "availableSeats": 100,
-        "enrolled":90,
+        "enrolled": 90,
         "price": 79.99,
         "courseDetails": {
             "description": "Learn the basics of web development and build your first website.",
@@ -57,7 +57,7 @@
         "imageLink": "https://example.com/images/python-data-science.jpg",
         "instructorName": "Michael Davis",
         "availableSeats": 75,
-        "enrolled":50,
+        "enrolled": 50,
         "price": 99.99,
         "courseDetails": {
             "description": "Learn Python programming and data science techniques.",
@@ -109,7 +109,7 @@
         "imageLink": "https://example.com/images/digital-marketing.jpg",
         "instructorName": "Sarah Thompson",
         "availableSeats": 50,
-        "enrolled":40,
+        "enrolled": 40,
         "price": 59.99,
         "courseDetails": {
             "description": "Learn the fundamentals of digital marketing and grow your online presence.",
@@ -161,7 +161,7 @@
         "imageLink": "https://example.com/images/ai-intro.jpg",
         "instructorName": "David Lee",
         "availableSeats": 80,
-        "enrolled":70,
+        "enrolled": 70,
         "price": 89.99,
         "courseDetails": {
             "description": "Explore the exciting field of artificial intelligence and its applications.",
@@ -208,3 +208,4 @@
         }
     }
 ]
+

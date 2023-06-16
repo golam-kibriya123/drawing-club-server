@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "roll": "student",
+        "name": "John Doe",
+        "email": "johndoe@example.com",
+        "photoUrl": "https://example.com/johndoe.jpg",
+        "gender": "Male",
+        "phoneNumber": "+1 (555) 123-4567",
+        "address": "123 Main St, Anytown, USA"
+    },
+    {
+        "id": 2,
+        "roll": "student",
+        "name": "Jane Smith",
+        "email": "janesmith@example.com",
+        "photoUrl": "https://example.com/janesmith.jpg",
+        "gender": "Female",
+        "phoneNumber": "+1 (555) 987-6543",
+        "address": "456 Oak Ave, Anycity, USA"
+    },
+    {
+        "id": 3,
+        "roll": "student",
+        "name": "Alex Johnson",
+        "email": "alexjohnson@example.com",
+        "photoUrl": "https://example.com/alexjohnson.jpg",
+        "gender": "Non-Binary",
+        "phoneNumber": "+1 (555) 246-8135",
+        "address": "789 Elm Rd, Anystate, USA"
+    },
+    {
+        "id": 4,
+        "roll": "student",
+        "name": "Emily Davis",
+        "email": "emilydavis@example.com",
+        "photoUrl": "https://example.com/emilydavis.jpg",
+        "gender": "Female",
+        "phoneNumber": "+1 (555) 369-2587",
+        "address": "321 Pine Ln, Anycity, USA"
+    },
+    {
+        "id": 5,
+        "roll": "student",
+        "name": "Michael Wilson",
+        "email": "michaelwilson@example.com",
+        "photoUrl": "https://example.com/michaelwilson.jpg",
+        "gender": "Male",
+        "phoneNumber": "+1 (555) 987-6543",
+        "address": "654 Maple Dr, Anystate, USA"
+    },
+    {
+        "id": 6,
+        "roll": "student",
+        "name": "Olivia Taylor",
+        "email": "oliviataylor@example.com",
+        "photoUrl": "https://example.com/oliviataylor.jpg",
+        "gender": "Female",
+        "phoneNumber": "+1 (555) 321-6549",
+        "address": "987 Birch St, Anytown, USA"
+    },
+    {
+        "id": 7,
+        "roll": "student",
+        "name": "William Anderson",
+        "email": "williamanderson@example.com",
+        "photoUrl": "https://example.com/williamanderson.jpg",
+        "gender": "Male",
+        "phoneNumber": "+1 (555) 456-7890",
+        "address": "369 Cedar Rd, Anycity, USA"
+    },
+    {
+        "id": 8,
+        "roll": "student",
+        "name": "Sophia Brown",
+        "email": "sophiabrown@example.com",
+        "photoUrl": "https://example.com/sophiabrown.jpg",
+        "gender": "Female",
+        "phoneNumber": "+1 (555) 789-1234",
+        "address": "258 Oak Ave, Anytown, USA"
+    }
+]
