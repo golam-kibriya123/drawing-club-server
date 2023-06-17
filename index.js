@@ -8,8 +8,21 @@ require('dotenv').config();
 // middleware
 app.use(cors());
 app.use(express.json());
-
-
+// access key
+const verifyJWT = (req, res, next) => {
+    const authorization = req.headers.authorization;
+    if (!authorization) {
+        return res.status(401).send({ error: true, message: 'unauthorized access' })
+    }
+    const token = authorization.split('')[1];
+    jwt.verify(token, process.env.ACCESS_TOKEN_SECRET, (err, decoded) => {
+        if (err) {
+            return res.status(401).send({ error: true, message: 'unauthorized access' })
+        };
+        req.decoded = decoded;
+        next()
+    })
+}
 
 // database
 const pass = process.env.DB_PASS;
@@ -50,11 +63,18 @@ async function run() {
         const usersCollection = client.db('drawingDB').collection('users');
 
         app.get('/classes', async (req, res) => {
-            const query = {};
-            const option = {};
-            const result = await classesCollection.find({}).toArray();
+            const query = { state: "Approved" };
+            // const option = {};
+            const result = await classesCollection.find(query).toArray();
             res.send(result)
         });
+        app.get('/myclasses', async (req, res) => {
+            const mail = req.query.email;
+            const query = { instructor_email: mail }
+            console.log(mail);
+            const result = await classesCollection.find(query).toArray()
+            res.send(result)
+        })
         app.get('/classes/:id', async (req, res) => {
             const id = req.params.id;
             const query = { _id: new ObjectId(id) };
@@ -62,6 +82,21 @@ async function run() {
             res.send(result)
 
         });
+        app.patch('/classes/state/:id', async (req, res) => {
+            const id = req.params.id;
+            const filter = { _id: new ObjectId(id) };
+            const options = { upsert: true };
+            const updateClass = req.body;
+            const update = {
+                $set: {
+                    state: updateClass.state
+
+                }
+            };
+
+            const result = await classesCollection.updateOne(filter, update, options);
+            res.send(result)
+        })
         app.patch('/classes/:id', async (req, res) => {
             const id = req.params.id;
             const filter = { _id: new ObjectId(id) };
@@ -89,12 +124,21 @@ async function run() {
             res.send(result)
 
         });
-
-
         app.get('/users', async (req, res) => {
+
             const result = await usersCollection.find().toArray();
             res.send(result)
         });
+
+        app.get('/users/email', async (req, res) => {
+            const mail = req.query.email;
+            const query = { email: mail }
+            const result = await usersCollection.find(query).toArray();
+            res.send(result)
+        });
+        app.get('/instructors', async (req, res) => {
+            const query = {}
+        })
         app.patch('/users/admin/:id', async (req, res) => {
             const id = req.params.id;
             console.log(id)
