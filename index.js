@@ -130,7 +130,7 @@ async function run() {
             res.send(result);
 
         });
-        app.get('/classes/selected', async (req, res) => {
+        app.get('/selected', async (req, res) => {
             const result = await selectedClassCollection.find().toArray();
             res.send(result)
         })
