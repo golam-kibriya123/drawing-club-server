@@ -58,9 +58,8 @@ async function run() {
         // Connect the client to the server	(optional starting in v4.7)
         client.connect();
         const classesCollection = client.db('drawingDB').collection('classes');
-        const instructorsCollection = client.db('drawingDB').collection('instructors');
-        const studentsCollection = client.db('drawingDB').collection('students');
         const usersCollection = client.db('drawingDB').collection('users');
+        const selectedClassCollection = client.db('drawingBD').collection('selectedClasses')
 
         app.get('/classes', async (req, res) => {
             const query = { state: "Approved" };
@@ -124,12 +123,24 @@ async function run() {
             res.send(result)
 
         });
+        // selected classes
+        app.post('/classes/selected', async (req, res) => {
+            const selectedClass = req.body;
+            const result = await selectedClassCollection.insertOne(selectedClass);
+            res.send(result);
+
+        });
+        app.get('/classes/selected', async (req, res) => {
+            const result = await selectedClassCollection.find().toArray();
+            res.send(result)
+        })
+
+
         app.get('/users', async (req, res) => {
 
             const result = await usersCollection.find().toArray();
             res.send(result)
         });
-
         app.get('/users/email', async (req, res) => {
             const mail = req.query.email;
             const query = { email: mail }
@@ -179,10 +190,14 @@ async function run() {
             const result = await usersCollection.insertOne(add_user);
             res.send(result)
 
-        })
+        });
 
-
-
+        app.get('/instructor', async (req, res) => {
+            const query = { role: "instructor" };
+            const option = {};
+            const result = await usersCollection.find(query).toArray();
+            res.send(result)
+        });
 
         app.get('/popularclass', async (req, res) => {
             const query = {}
@@ -190,12 +205,7 @@ async function run() {
             const result = await classesCollection.find(query, option).limit(6).toArray();
             res.send(result)
         });
-        app.get('/instructors', async (req, res) => {
-            const query = {};
-            const option = {};
-            const result = await instructorsCollection.find({}).toArray();
-            res.send(result)
-        });
+
         app.get('/popularinstructors', async (req, res) => {
 
             const option = {
